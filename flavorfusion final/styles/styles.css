@@ -1,0 +1,144 @@
+/* General Styles */
+@font-face {
+    font-family: 'MyHappyEnding';
+    src: url('fonts/My Happy Ending - TTF.ttf') format('truetype');
+}
+
+body {
+    font-family: 'MyHappyEnding', sans-serif;
+    background-color: #F2F0EF; /* Cream color background */
+    font-size: 30px; /* Increased base font size */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Carousel Styles */
+.card-carousel {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.carousel-img {
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Cover the image area without stretching */
+}
+
+/* Login Card Styles */
+.card-login {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 36px; /* Increased size for card titles */
+}
+
+.alert-danger {
+    margin-top: 20px;
+    font-size: 20px; /* Larger font size for alert messages */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #000; /* Black */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+/* Card Styles */
+.card {
+    margin: 10px;
+    border: none; /* Remove default border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card slightly up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; /* Adjust border radius */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d; /* Subtle text color */
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.search-section, .filter-section {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #5a6268; /* Custom button color */
+    border-color: #5a6268;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #343a40; /* Button color on hover */
+    border-color: #343a40;
+}
+
+.page-item.active .page-link {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+.page-link {
+    color: #5a6268;
+}
+
+.page-link:hover {
+    color: #343a40;
+}
+
+/* Custom styles */
+
+
+.container {
+    margin-top: 20px;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+button.btn {
+    margin-top: 10px;
+}
